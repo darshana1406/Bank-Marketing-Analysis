@@ -23,9 +23,9 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we bui
   1. LightGBM Classifier (Maxabs Scalar)           (91.51%)
   
 * The hyperparameters of VotingEnsemble Classifier:
-  * "ensembled_iterations": "[1, 0, 13, 10, 9, 11, 12]"
-  * "ensembled_algorithms": "['XGBoostClassifier', 'LightGBM', 'SGD', 'SGD', 'SGD', 'SGD', 'ExtremeRandomTrees']"
-  * "ensemble_weights": "[0.2, 0.4, 0.06666666666666667, 0.06666666666666667, 0.06666666666666667, 0.06666666666666667, 0.13333333333333333]"
+  * "ensembled_iterations": "[32, 0, 1, 43, 36, 34, 35, 4, 15]"
+  * "ensembled_algorithms": "['XGBoostClassifier', 'LightGBM', 'XGBoostClassifier', 'XGBoostClassifier', 'XGBoostClassifier', 'XGBoostClassifier', 'XGBoostClassifier', 'SGD', 'SGD']"
+  * "ensemble_weights": "[0.2, 0.13333333333333333, 0.06666666666666667, 0.06666666666666667, 0.2, 0.13333333333333333, 0.06666666666666667, 0.06666666666666667, 0.06666666666666667]"
 
 ## Pipeline comparison
 * The best model obtained using Hyperdrive is Logistic Regression with an accuracy of 91.35%.
